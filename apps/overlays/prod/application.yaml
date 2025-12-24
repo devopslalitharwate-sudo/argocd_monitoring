@@ -5,7 +5,7 @@ metadata:
   namespace: argocd
 spec:
     source:
-        repoURL: https://github.com/devopslalitharwate-sudo/argocd_kustomization
+        repoURL: https://github.com/devopslalitharwate-sudo/argocd_monitoring
         targetRevision: main
         path: apps/overlays/prod
     syncPolicy:
