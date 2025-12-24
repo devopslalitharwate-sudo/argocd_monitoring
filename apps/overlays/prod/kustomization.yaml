@@ -1,0 +1,8 @@
+nameSuffix: -prod
+
+resources:
+    - ../../base
+
+patchesStrategicMerge:
+    - deployment.yaml
+    - application.yaml
