@@ -8,9 +8,10 @@ spec:
 
   source:
     repoURL: https://github.com/devopslalitharwate-sudo/argocd_monitoring
-    path: monitoring
     targetRevision: main
+    path: monitoring
     helm:
+      releaseName: monitoring
       valueFiles:
         - values.yaml
 
